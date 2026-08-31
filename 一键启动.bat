@@ -1,13 +1,14 @@
 @echo off
+chcp 65001 >nul
 cd /d "%~dp0"
 
 echo ========================================
-echo   BiliDaka ¡¤ ·ÖPÑÐÏ°Â¼  Æô¶¯ÖÐ...
+echo   BiliDaka Â· åˆ†Pç ”ä¹ å½•  å¯åŠ¨ä¸­...
 echo ========================================
 echo.
 
-.venv\Scripts\python.exe -m streamlit run app.py
+py -m streamlit run app.py
 
 echo.
-echo ³ÌÐòÒÑÍË³ö£¬°´ÈÎÒâ¼ü¹Ø±Õ´°¿Ú...
+echo ç¨‹åºå·²é€€å‡ºï¼ŒæŒ‰ä»»æ„é”®å…³é—­çª—å£...
 pause >nul
